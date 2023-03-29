@@ -29,9 +29,19 @@
 .placeholder {
     width: 700px;
     height: 200px;
+    background-color: #888c96;
+    color: #EEEEEE;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 20px;
 }
 
 ul {
