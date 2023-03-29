@@ -1,0 +1,33 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.stuff {
+    width: 700px;
+    height: 200px;
+    
+}
+
+.placeholder {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+}
