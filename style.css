@@ -1,17 +1,29 @@
+.header {
+    background-color: #1F2937;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.header-logo {
+    color: #F9FAF8;
+    font-size: 18px;
+}
 .container {
     display: flex;
 }
 
-.stuff {
-    width: 700px;
-    height: 200px;
-    
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .placeholder {
@@ -30,4 +42,6 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
