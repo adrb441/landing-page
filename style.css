@@ -182,3 +182,12 @@ a {
     padding: 6px 30px;
     margin-right: 140px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #EEEEEE;
+    font-size: 18px;
+    padding: 50px;
+}
