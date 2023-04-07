@@ -1,16 +1,20 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
 }
 
-.header {
+.header-background {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
+    flex-shrink: 0;
+}
+
+.header {
     display: flex;
     flex-direction: column;
-    padding: 20px 600px;
 }
 
 .header-top {
@@ -97,7 +101,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 96px;
+    margin-bottom: 125px;
 }
 
 .box {
@@ -111,4 +115,27 @@ a {
     color: #666972;
     width: 150px;
     padding-top: 12px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote-text {
+    width: 825px;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-source {
+    width: 825px;
+    color: #1F2937;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
 }
